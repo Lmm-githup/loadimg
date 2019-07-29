@@ -1,0 +1,4 @@
+<!--pages/lan/lan.wxml-->
+<view class='lan' wx:for="{{imgs}}" wx:key='index'>
+  <image src="{{item.cool?item.src:''}}"></image>
+</view>
